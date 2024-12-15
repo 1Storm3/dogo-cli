@@ -15,7 +15,13 @@
 go install github.com/1Storm3/dogo-cli/dogo@latest
 ```
 
-### Примеры использования:
+### Как использовать:
+Для использования утилиты достаточно выполнить следующую команду:
+
+```bash
+cd dogo
+```
+
 ```bash
 dogo gen --name=users --type=rest
 ```
