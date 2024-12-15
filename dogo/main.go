@@ -119,7 +119,7 @@ func createDirectories(base string, structure map[string][]string) error {
 }
 
 func createMainFile(serviceName string) error {
-	mainFilePath := filepath.Join(serviceName, "dogo", serviceName, "dogo.go")
+	mainFilePath := filepath.Join(serviceName, "dogo", serviceName, "main.go")
 
 	mainContent := fmt.Sprintf(`package main
 

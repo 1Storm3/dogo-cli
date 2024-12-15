@@ -1,4 +1,4 @@
-module cli-generate
+module github.com/1Storm3/dogo-cli
 
 go 1.23
 
