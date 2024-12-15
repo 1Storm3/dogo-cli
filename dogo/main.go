@@ -12,9 +12,10 @@ import (
 func main() {
 	rootCmd := &cobra.Command{
 		Use:   "dogo",
-		Short: "dogo: Кли утилита для генерации сервисов с REST и gRPC",
-		Long:  `dogo: Кли утилита для генерации сервисов с REST и gRPC`,
+		Short: "dogo: Cli утилита для генерации сервисов с REST и gRPC",
+		Long:  `dogo: Cli утилита для генерации сервисов с REST и gRPC`,
 	}
+	rootCmd.SetHelpCommand(nil)
 
 	rootCmd.AddCommand(createGenerateCommand())
 
